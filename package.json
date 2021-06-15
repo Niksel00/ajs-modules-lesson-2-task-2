@@ -1,0 +1,41 @@
+{
+  "name": "ajs-modules-lesson-2-task-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niksel00/ajs-modules-lesson-2-task-2.git"
+  },
+  "author": "Niksel00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niksel00/ajs-modules-lesson-2-task-2/issues"
+  },
+  "homepage": "https://github.com/Niksel00/ajs-modules-lesson-2-task-2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.14.0",
+    "html-loader": "^2.1.2"
+  }
+}
